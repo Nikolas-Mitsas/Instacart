@@ -76,12 +76,12 @@ gc.enable()                       # Activate
 # In[3]:
 
 
-orders = pd.read_csv('../data/4931_7487_compressed_orders.csv')
-order_products_train = pd.read_csv('../data/4931_7487_compressed_order_products__train.csv.csv')
-order_products_prior = pd.read_csv('../data/4931_7487_compressed_order_products__prior.csv')
-products = pd.read_csv('../data/4931_7487_compressed_products.csv')
-aisles = pd.read_csv('../data/datasets_4931_7487_aisles.csv')
-departments = pd.read_csv('../data/datasets_4931_7487_departments.csv')
+orders = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/4931_7487_compressed_order_products__prior.csv')
+order_products_train = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/4931_7487_compressed_order_products__train.csv.csv')
+order_products_prior = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/4931_7487_compressed_order_products__prior.csv')
+products = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/4931_7487_compressed_products.csv')
+aisles = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/datasets_4931_7487_aisles.csv')
+departments = pd.read_csv('C:/Χρήστες/user/Έγγραφα/Github/Instacart/data/datasets_4931_7487_departments.csv')
 
 
 # This step results in the following DataFrames:
