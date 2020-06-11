@@ -76,10 +76,10 @@ gc.enable()                       # Activate
 # In[3]:
 
 
-orders = pd.read_csv('orders.csv')
-order_products_train = pd.read_csv('order_products__train.csv')
-order_products_prior = pd.read_csv('order_products__prior.csv')
-products = pd.read_csv('products.csv')
+orders = pd.read_csv('orders.csv.zip')
+order_products_train = pd.read_csv('order_products__train.csv.zip')
+order_products_prior = pd.read_csv('order_products__prior.csv.zip')
+products = pd.read_csv('products.csv.zip')
 aisles = pd.read_csv('aisles.csv')
 departments = pd.read_csv('departments.csv')
 
