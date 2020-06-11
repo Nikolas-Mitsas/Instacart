@@ -76,12 +76,12 @@ gc.enable()                       # Activate
 # In[3]:
 
 
-orders = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\datasets_4931_7487_aisles.csv')
-order_products_train = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\4931_7487_compressed_order_products__train.csv')
-order_products_prior = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\4931_7487_compressed_orders.csv')
-products = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\4931_7487_compressed_products.csv')
-aisles = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\datasets_4931_7487_aisles.csv')
-departments = pd.read_csv('C:\Users\user\Documents\GitHub\Instacart\data\datasets_4931_7487_departments.csv')
+orders = pd.read_csv('../input/instacart-market-basket-analysis/orders.csv')
+order_products_train = pd.read_csv('../input/instacart-market-basket-analysis/order_products__train.csv')
+order_products_prior = pd.read_csv('../input/instacart-market-basket-analysis/order_products__prior.csv')
+products = pd.read_csv('../input/instacart-market-basket-analysis/products.csv')
+aisles = pd.read_csv('../input/instacart-market-basket-analysis/aisles.csv')
+departments = pd.read_csv('../input/instacart-market-basket-analysis/departments.csv')
 
 
 # This step results in the following DataFrames:
